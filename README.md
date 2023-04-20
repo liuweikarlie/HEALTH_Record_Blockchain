@@ -1,15 +1,38 @@
-### Secret Network Business Card Workshop
+# Health Record in Blockchain
 
-**Secret Network Viewing Keys** are unique, random keys that are generated utilizing the [Secret Toolkit Random Number Generator(RNG)](https://github.com/scrtlabs/secret-toolkit/blob/master/packages/crypto/src/rng.rs). In this Secret Network workshop, we will build a fullstack dapp that allows users to create Business Cards which can only be viewed by wallets if they have the associated Viewing Key.
+> This is the Liu Wei's  final year project @ HKU CS
 
-In order to follow along with this workshop, please configure your developer environment accordingly:
+This project utlized Secret Network for designing the health record system that able users and doctor to upload the health record, provide control access  and encryption function to ensure privacy problem
 
-1. Install npm, dotenv, and rust. For detailed environment configuration instructions, you can [follow along here](https://docs.scrt.network/secret-network-documentation/development/getting-started/setting-up-your-environment).
 
-2. Download keplr wallet, add the Secret Network testnet to your keplr wallet, and fund your testnet wallet with tokens. For detailed instructions on how to do this [view the Secret Network docs here](https://docs.scrt.network/secret-network-documentation/development/testnet).
 
-3. Clone this repo as it is the repo you will be working with during the workshop.
+## Installation 
 
-4. If you have never worked with Secret Network smart contracts and/or Secret.js before, you might find it helpful to complete [this Secret.Js tutorial](https://docs.scrt.network/secret-network-documentation/development/getting-started/interacting-with-the-testnet) prior to attending the workshop.
+**In the contract folder**
 
-Should you have any questions or concerns, reach out to seanrad on discord @Seanrad#0145
+- This is for smart contract building. 
+- You can produce the smart contract `.wasm` file by running ` make build`  in your command line
+
+**In the react folder**
+
+- This is the folder for user webpage
+
+- You can launch the webpage in the command line
+
+  ```shell
+  npm install
+  npm start
+  ```
+
+**In the react2 folder**
+
+- This is the folder for doctor webpage
+
+- You can launch the webpage in the command line 
+
+  ```shell
+  npm install
+  npm start
+  ```
+
+  
